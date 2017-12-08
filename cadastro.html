@@ -13,32 +13,70 @@ body {
 </style>
 <body>
 <form id="cadastro" name="cadastro" method="post" action="cadastro.php">
-<table>
-	<tr>
-		<td>Nome:</td>
-		<td><input name="Nome" type="text" id="Nome" size="50" maxlength="70"></td>
-	</tr>
-	<tr>
-		<td>Matrícula: </td>
-		<td><input name="Matricula" type="text" id="Matricula" size="50" maxlength="70"></td>
-	</tr>
-	<tr>
-		<td>CPF:</td>
-		<td><input name="Cpf" type="text" id="Cpf" size="50" maxlength="70"></td>
-	</tr>
-	<tr>
-		<td>Endereço:</td>
-		<td><input name="Endereco" type="text" id="Endereco" size="50" maxlength="70"></td>
-	</tr>
-	<tr>
-		<td>Meio: </td>
-		<td><input name="Meio" type="text" id="Meio" size="50" maxlength="70"></td>
-	</tr>
-	<tr>
-		<td><input name="cadastrar" type="submit" id="cadastrar" value="Cadastrar" /></td>
-		<td><input name="limpar" type="reset" id="limpar" value="Apagar Campos" /></td>
-	</tr>
-</table>
+Nome:<input name="Nome" type="text" id="Nome" size="50" maxlength="70">
+<br>
+Matrícula: <input name="Matricula" type="text" id="Matricula" size="50" maxlength="70">
+<br>
+E-mail: <input name="Email" type="text" id="Email" size="50" maxlength="70">
+<br>
+CPF: <input name="CPF" type="text" id="CPF" size="50" maxlength="70">
+<br>
+<br>
+Endereço:
+<br>
+Rua: <input name="Rua" type="text" id="Rua" size="50" maxlength="70">
+<br>
+Número: <input name="Numero" type="text" id="Numero" size="5" maxlength="9">
+<br>
+Complemento: <input name="Complemento" type="text" id="Complemento" size="10" maxlength="20">
+<br>
+Bairro: <input name="Bairro" type="text" id="Bairro" size="15" maxlength="70">
+<br>
+Cidade: <input name="Cidade" type="text" id="Rua" size="50" maxlength="70">
+<br>
+Estado:
+	<select name="Estado">
+	<option value="Rio de Janeiro">Rio de Janeiro</option>
+	<option value="Acre">Acre</option>
+	<option value="Alagoas">Alagoas</option>
+	<option value="Amazonas">Amazonas</option>
+	<option value="Amap&aacute;">Amap&aacute;</option>
+	<option value="Bahia">Bahia</option>
+	<option value="Cear&aacute;">Cear&aacute;</option>
+	<option value="Distrito Federal">Distrito Federal</option>
+	<option value="Espirito Santo">Esp&iacute;rito Santo</option>
+	<option value="Goi&aacute;s">Goi&aacute;s</option>
+	<option value="Maranh&atilde;o">Maranh&atilde;o</option>
+	<option value="Mato Grosso">Mato Grosso</option>
+	<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+	<option value="Minas Gerais">Minas Gerais</option>
+	<option value="Par&aacute;">Par&aacute;</option>
+	<option value="Para&iacute;ba">Para&iacute;ba</option>
+	<option value="Paran&aacute;">Paran&aacute;</option>
+	<option value="Pernambuco">Pernambuco</option>
+	<option value="Piau&iacute;">Piau&iacute;</option>
+	<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+	<option value="Rond&ocirc;nia">Rond&ocirc;nia</option>
+	<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+	<option value="Roraima">Roraima</option>
+	<option value="Santa Catarina">Santa Catarina</option>
+	<option value="Sergipe">Sergipe</option>
+	<option value="S&atilde;o Paulo">S&atilde;o Paulo</option>
+	<option value="Tocantins">Tocantins</option>
+	</select>
+<br>
+CEP: <input name="CEP" type="text" id="CEP" size="15" maxlength="15"><br>
+<br>
+Meio:
+<br>
+			<input type="checkbox" name="Carro" id="Carro" value="1">Carro<br>
+			<input type="checkbox" name="Moto"  id="Moto" value="1">Moto<br>
+			<input type="checkbox" name="Onibus"  id="Onibus" value="1">Ônibus<br>
+			<input type="checkbox" name="Bicicleta"  id="Bicicleta" value="1">Bicicleta<br>
+			<input type="checkbox" name="Pe"  id="Pe" value="1">A pé<br>
+
+<br><input name="cadastrar" type="submit" id="cadastrar" value="Cadastrar" />
+<input name="limpar" type="reset" id="limpar" value="Apagar Campos" />
 </form>
 </body>
 </html>
