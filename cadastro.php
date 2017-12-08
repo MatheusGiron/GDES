@@ -14,11 +14,11 @@ $bd        = 	'alegra';
 
 // RECEBENDO OS DADOS PREENCHIDOS DO FORMULáRIO !
 
-$Nome					= $_POST ["Nome"];			//atribuição do campo "nome" vindo do formulário para variavel
-$Matricula		= $_POST ["Matricula"];
-$Cpf				  = $_POST ["Cpf"];
-$Endereco			= $_POST ["Endereco"];
-$Meio		      = $_POST ["Meio"];
+$Nome		= $_POST ["Nome"];			//atribuição do campo "nome" vindo do formulário para variavel
+$Matricula	= $_POST ["Matricula"];
+$Cpf		= $_POST ["Cpf"];
+$Endereco	= $_POST ["Endereco"];
+$Meio		= $_POST ["Meio"];
 
 $conexao = mysqli_connect("$host", "$userbd", "$senhabd", "$bd");
 
